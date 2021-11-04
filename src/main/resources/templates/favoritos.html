@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" th:href="@{css/principal.css}">
+	<title>Favoritos</title>
+
+</head>
+
+<body>	
+	
+<ul>
+  <li><a class="active" th:href="@{/}">Home</a></li>
+  <li><a th:href="@{/sobre}">Sobre</a></li>
+  <li><a th:href="@{/curiosidades}">Tabela de curiosidades</a></li>
+  <li><a th:href="@{/favoritos}"> Sites favoritos</a></li>
+</ul>
+	
+    
+    <h1>Sites Favoritos</h1>    
+
+    <div>
+        <p><a href="https://digitalinnovation.one/" target="_blank">Digital Innovation One</a></p>
+        <p><a href="https://www.w3schools.com/" target="_blank">W3 schools</a></p>
+        <p><a href="https://www.hackerrank.com/" target="_blank">Hacker Rank</a></p>
+    </div>
+    
+</body>
+</html>

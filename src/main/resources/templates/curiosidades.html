@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" th:href="@{css/principal.css}">
+	<title>Curiosidades</title>
+	
+
+</head>
+
+<body>	
+	
+<ul>
+  <li><a class="active" th:href="@{/}">Home</a></li>
+  <li><a th:href="@{/sobre}">Sobre</a></li>
+  <li><a th:href="@{/curiosidades}">Tabela de curiosidades</a></li>
+  <li><a th:href="@{/favoritos}"> Sites favoritos</a></li>
+</ul>	
+	
+    
+    <h1>Tabela de curiosidades</h1>
+
+    <table>
+        <tr>
+            <td><strong>Curiosidades</strong></td>
+            <td><strong>Priscila Fraifer</strong></td>
+            
+        </tr>
+        <tr>
+            <td>Altura</td>
+            <td>1,68</td>
+            
+        </tr>
+        <tr>
+            <td>Peso</td>
+            <td>70 kg</td>
+           
+        </tr>
+        <tr>
+            <td>Olhos</td>
+            <td>Castanhos</td>
+            
+        </tr>
+        <tr>
+            <td>Filme favorito</td>
+            <td>"A procura da felicidade"</td>
+            
+        </tr>
+        <tr>
+            <td>Série de TV favorita</td>
+            <td>"La casa de papel"</td>
+            
+        </tr>
+        <tr>
+            <td>Programa de TV favorito</td>
+            <td>"Domingão com Huck"</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" th:href="@{css/principal.css}">
+	<script th:src="@{js/script.js}"></script>
+	<title>Home</title>	
+
+
+</head>
+
+<body>	
+	
+<ul>
+  <li><a class="active" th:href="@{/}">Home</a></li>
+  <li><a th:href="@{/sobre}">Sobre</a></li>
+  <li><a th:href="@{/curiosidades}">Tabela de curiosidades</a></li>
+  <li><a th:href="@{/favoritos}"> Sites favoritos</a></li>
+</ul>
+	
+	<h1>Aluna do Projeto</h1>	
+   
+     
+    <div class="gallery"> 
+    <a th:href="@{/sobre}"> 
+    
+    <img th:src="@{img/priscila.jpg}" alt="Imagem da aluna Priscila Fraifer" width="600" height="400">
+  </a>
+  <div class="desc">Clique na imagem para saber mais sobre a estudante</div>
+</div>
+
+
+    
+</body>
+</html>
